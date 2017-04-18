@@ -20,7 +20,7 @@ Play ground to try Azure AD as a User Management.
 
 - [x] Authentication against Azure AD
 - [] Azure AD user singup
-- [] Azure AD claims based on Azure AD Groups
+- [x] Azure AD claims based on Azure AD Groups
 - [] Azure AD list of AD groups
 - [] Azure AD user information
 - [] Azure AD user list

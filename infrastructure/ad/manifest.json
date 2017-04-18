@@ -1,0 +1,54 @@
+{
+  "appId": "00000000-0000-0000-0000-000000000000",
+  "appRoles": [],
+  "availableToOtherTenants": false,
+  "displayName": "Play.AzureAD",
+  "errorUrl": null,
+  "groupMembershipClaims": "SecurityGroup",
+  "homepage": "https://localhost:5000/signin-oidc",
+  "identifierUris": [
+    "https://tenantname.onmicrosoft.com/00000000-0000-0000-0000-000000000000"
+  ],
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logoutUrl": "https://localhost:5000/signin-oidc/account/sessionend",
+  "oauth2AllowImplicitFlow": false,
+  "oauth2AllowUrlPathMatching": false,
+  "oauth2Permissions": [
+    {
+      "adminConsentDescription": "Allow the application to access Play.AzureAD on behalf of the signed-in user.",
+      "adminConsentDisplayName": "Access Play.AzureAD",
+      "id": "00000000-0000-0000-0000-000000000000",
+      "isEnabled": true,
+      "type": "User",
+      "userConsentDescription": "Allow the application to access Play.AzureAD on your behalf.",
+      "userConsentDisplayName": "Access Play.AzureAD",
+      "value": "user_impersonation"
+    }
+  ],
+  "oauth2RequiredPostResponse": false,
+  "objectId": "00000000-0000-0000-0000-000000000000",
+  "passwordCredentials": [],
+  "publicClient": false,
+  "supportsConvergence": false,
+  "replyUrls": [
+    "http://localhost:5000/signin-oidc",
+    "https://localhost:5000/signin-oidc"
+  ],
+  "requiredResourceAccess": [
+    {
+      "resourceAppId": "00000000-0000-0000-0000-000000000000",
+      "resourceAccess": [
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "type": "Scope"
+        },
+        {
+          "id": "00000000-0000-0000-0000-000000000000",
+          "type": "Scope"
+        }
+      ]
+    }
+  ],
+  "samlMetadataUrl": null
+}

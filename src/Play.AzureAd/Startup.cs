@@ -57,6 +57,8 @@ namespace Play.AzureAD
                 Authority = Configuration["AzureAd:Authority"],
                 ClientId = Configuration["AzureAD:ClientId"],
                 ResponseType = OpenIdConnectResponseType.IdToken,
+                // POST is required so Azure AD sends groups
+                ResponseMode = OpenIdConnectResponseMode.FormPost, 
                 Events = new OpenIdConnectEvents
                 {
                     OnRemoteFailure = OnAuthenticationFailed,
