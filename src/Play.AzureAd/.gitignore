@@ -1,0 +1,6 @@
+*.Development.json
+bin
+obj
+
+# Assets
+wwwroot/lib

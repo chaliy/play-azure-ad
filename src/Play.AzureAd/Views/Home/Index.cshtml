@@ -1,0 +1,16 @@
+﻿@using System.Security.Principal
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <ul>
+        <li>@User.Identity.Name</li>
+        @foreach (var claim in @User.Claims)
+        {
+            <li>@claim.Type - @claim.Value</li>
+        }
+    </ul>
+}

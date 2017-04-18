@@ -1,0 +1,7 @@
+node_modules
+
+azuredeploy.parameters.json
+azuredeploy.json
+
+# Devs
+mike*
